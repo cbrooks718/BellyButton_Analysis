@@ -75,7 +75,7 @@ function buildCharts(sample) {
     var otu_labels = firstSample.otu_labels;
     var sample_values = firstSample.sample_values;
     // Deliverable 3: 3. Create a variable that holds the washing frequency.
-    var washfreq = firstMetaData.washreq;
+    var washfreq = firstMetadata.washreq;
 
     // Deliverable 1: 7. Create the yticks for the bar chart.
     // Hint: Get the the top 10 otu_ids and map them in descending order 
