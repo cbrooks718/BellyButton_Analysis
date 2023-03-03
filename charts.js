@@ -92,7 +92,7 @@ function buildCharts(sample) {
     
     // Deliverable 1: 9. Create the layout for the bar chart. 
     var barLayout = {
-      title: "Top 10 Bacteria Found in BB",
+      title: "Top 10 Bacteria Found",
       margin: {
         l: 100,
         r: 100,
