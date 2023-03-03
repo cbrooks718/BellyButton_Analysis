@@ -130,8 +130,8 @@ function buildCharts(sample) {
       value: washfreq,
       title: {text: "Belly Button Washing Frequency <br> Scrubs per Week"},
       type: "indicator",
-      mode: "gague+number",
-      gague: {
+      mode: "gauge+number",
+      gauge: {
         axis: {range: [null,10]},
         bar: {color: "black"},
         steps: [
