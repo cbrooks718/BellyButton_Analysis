@@ -82,14 +82,14 @@ function buildCharts(sample) {
     // so the otu_ids with the most bacteria are last. 
     var yticks = otu_ids.slice(0,10).map(otu_ids => 'OTU ${otu_ids}').reverse();
     // Deliverable 1: 8. Create the trace for the bar chart. 
-    barData = {
+    barData = [{
       x: sample_values.slice(0,10).reverse(),
       y: yticks,
       text: otu_labels.slice(0,10).reverse(),
       type: "bar",
       orientation: "h"
-    };
-    var data = [barData];
+    }];
+    
     // Deliverable 1: 9. Create the layout for the bar chart. 
     var barLayout = {
       title: "Top 10 Bacteria Found in BB",
