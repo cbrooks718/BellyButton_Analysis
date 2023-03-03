@@ -93,12 +93,6 @@ function buildCharts(sample) {
     // Deliverable 1: 9. Create the layout for the bar chart. 
     var barLayout = {
       title: "Top 10 Bacteria Found in BB",
-      margin: {
-        l: 100,
-        r: 100,
-        t: 100,
-        b: 100
-      }
     };
 
     // Deliverable 1: 10. Use Plotly to plot the data with the layout. 
