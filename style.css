@@ -1,0 +1,15 @@
+.jumbotron{
+    background: url("https://img.huffingtonpost.com/asset/56aa8d561a00001001ab187a.jpeg?cache=uds9afqxdt&ops=1910_1000") no-repeat center center;
+}
+
+.jumbotron h1{
+    color: #FCE50A85
+}
+
+.jumbotron p{
+    color: #FCE50A85
+}
+
+body {
+    background-color: #90E0F6
+}
